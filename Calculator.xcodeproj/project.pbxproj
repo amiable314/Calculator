@@ -54,14 +54,22 @@
 		30E635781F809C55005E88AA /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				30E635791F809C55005E88AA /* AppDelegate.swift */,
+				30E635851F809C55005E88AA /* Info.plist */,
 				30E6357B1F809C55005E88AA /* ViewController.swift */,
 				30E6357D1F809C55005E88AA /* Main.storyboard */,
-				30E635801F809C55005E88AA /* Assets.xcassets */,
-				30E635821F809C55005E88AA /* LaunchScreen.storyboard */,
-				30E635851F809C55005E88AA /* Info.plist */,
+				30E6358B1F80A9F4005E88AA /* SupportingFiles */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		30E6358B1F80A9F4005E88AA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				30E635791F809C55005E88AA /* AppDelegate.swift */,
+				30E635801F809C55005E88AA /* Assets.xcassets */,
+				30E635821F809C55005E88AA /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +282,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.org.iii.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +299,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.org.iii.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
