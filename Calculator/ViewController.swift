@@ -21,11 +21,24 @@ class ViewController: UIViewController {
             display!.text! = digit
             userIsInTheMiddleOfTypping = true  //new number there
         }
-        print("\(digit) is called")
+        //print("\(digit) is called")
      
     }
     
     
+    @IBAction func performOperation(_ sender: UIButton) {
+        if let mathematicalSymbol = sender.currentTitle{
+           userIsInTheMiddleOfTypping = false //not to add numbers after π
+           switch mathematicalSymbol{
+           case "π" :
+            display!.text = "3.1415926"
+           default:
+            break
+            
+            }
+        }
+        
+    }
     
     
     
