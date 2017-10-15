@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303AD8F91F8F2F8300F29DF1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AD8F81F8F2F8300F29DF1 /* CalculatorBrain.swift */; };
 		30E6357A1F809C55005E88AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E635791F809C55005E88AA /* AppDelegate.swift */; };
 		30E6357C1F809C55005E88AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6357B1F809C55005E88AA /* ViewController.swift */; };
 		30E6357F1F809C55005E88AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E6357D1F809C55005E88AA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303AD8F81F8F2F8300F29DF1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		30E635761F809C55005E88AA /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E635791F809C55005E88AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30E6357B1F809C55005E88AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				30E635851F809C55005E88AA /* Info.plist */,
 				30E6357B1F809C55005E88AA /* ViewController.swift */,
+				303AD8F81F8F2F8300F29DF1 /* CalculatorBrain.swift */,
 				30E6357D1F809C55005E88AA /* Main.storyboard */,
 				30E6358B1F80A9F4005E88AA /* SupportingFiles */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AD8F91F8F2F8300F29DF1 /* CalculatorBrain.swift in Sources */,
 				30E6357C1F809C55005E88AA /* ViewController.swift in Sources */,
 				30E6357A1F809C55005E88AA /* AppDelegate.swift in Sources */,
 			);
